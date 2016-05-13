@@ -17,7 +17,6 @@ def add_numbers(a, b)
 end
 
 
-
 print_two_args("Hello", "People")
 print_specified_args("Hello", "People")
 #print_specified_args("Hello") # Throws error
