@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 def print_two_args(*args)
 	arg1, arg2 = args
 	puts "arg1 : #{arg1}, arg2 : #{arg2}"
@@ -13,8 +14,9 @@ end
 
 def add_numbers(a, b)
 	puts "ADDING #{a} + #{b}"
-  return a + b
+	return a + b
 end
+
 
 
 print_two_args("Hello", "People")
@@ -37,3 +39,27 @@ END
 puts "--------------"
 puts poem
 puts "-------------"
+
+test_poem = <<END
+hello
+END
+print test_poem
+
+# ruby ex11_functions.rb
+# arg1 : Hello, arg2 : People
+# arg1 : Hello, arg2 : People
+# Say hello,
+# Say hello, Bobby
+# ADDING 12 + 30
+# 42
+# --------------
+# 	The lovely world
+# with logic so firmly planted
+# cannot discern
+#  the needs of love
+# nor comprehend passion from intuition
+# and requires an explanation
+#
+# 		where there is none.
+# -------------
+# hello
