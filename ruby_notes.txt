@@ -15,3 +15,6 @@ Running server
 ruby bin/app.rb
 
 http://localhost:8080/hello/?greeting=Hi
+
+Testing the form page
+sudo gem install rack-test
