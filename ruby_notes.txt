@@ -1,0 +1,17 @@
+#sudo gem install sinatra
+#ruby bin/app.rb
+
+#sudo gem install rerun
+#rerun 'ruby bin/app.rb'
+
+#Install rvm
+\curl -sSL https://get.rvm.io | bash -s stable
+
+#For Ruby
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+
+
+Running server
+ruby bin/app.rb
+
+http://localhost:8080/hello/?greeting=Hi
